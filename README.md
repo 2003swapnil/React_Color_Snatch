@@ -1,1 +1,2 @@
-# React Color Picker Demo
+# React Color Snatch
+
