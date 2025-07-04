@@ -1,15 +1,7 @@
 import { useState } from "react";
 import styles from "./colorPicker.module.css";
 
-/**
- * --- TODO: More thing you could do to expand this project:
- *
- * 1. Make it responsive!
- * 2. Automatically pull pallette out of image
- * 3. Allow for drag and drop images
- * 4. Calculate complimentary colors
- * 5. etc etc...
- */
+
 const ColorPicker = () => {
   const [color, setColor] = useState("#5524e7");
   const [image, setImage] = useState(null);
@@ -55,7 +47,8 @@ const ColorPicker = () => {
           >
             <span>{color}</span>
           </button>
-      
+        </div>
+      </div>
 
       <div className={styles.rightColumn}>
         {image ? (
