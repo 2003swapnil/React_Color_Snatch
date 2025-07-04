@@ -55,15 +55,7 @@ const ColorPicker = () => {
           >
             <span>{color}</span>
           </button>
-        </div>
-
-        <span className={styles.shoutout}>
-          Made with ❤️ by{" "}
-          <a href="https://linktr.ee/tomisloading" target="_blank">
-            @tomisloading
-          </a>
-        </span>
-      </div>
+      
 
       <div className={styles.rightColumn}>
         {image ? (
